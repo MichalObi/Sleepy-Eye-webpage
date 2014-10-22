@@ -1,0 +1,416 @@
+/*
+
+	Theme Name: EndGame - Responsive Retina Ready HTML Template
+	Author:		Dan Richardson (Subatomic Themes)
+	Version:	1.0.0
+	Stylesheet:	Stylesheet to assign fonts (fonts.css)
+
+*/
+
+body,
+textarea,
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="submit"],
+input[type="tel"],
+#home-slider h1,
+#home-slider h2,
+.comment-meta time {
+	font-family: 'exo_2.0regular' , Arial , Helvetica , sans-serif;
+	font-size: 14px;
+	font-weight: 400 !important;
+	line-height: 22px;
+}
+pre, code {
+	font-family: "Courier New", Courier , monospace;
+}
+h1, h2, h3, h4, h5, h6, th, time {
+	font-family: 'exo_2.0medium', sans-serif;
+	font-weight: 500 !important;
+	margin-bottom: 20px;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 26px;
+}
+h3 {
+	font-size: 60px;
+	line-height: 36px;
+	color: #fff !important;
+	margin-top: 10px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+p {
+	margin-bottom: 30px;
+}
+ul , ol {
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+sub, sup {
+	font-size: 10px;
+	position: relative;
+}
+sup {
+	bottom: 5px;
+}
+sub {
+	top: 5px;
+}
+th {
+	font-size: 16px;
+}
+tr td:first-child {
+	font-weight: 700;
+}
+tfoot tr td:first-child {
+	font-style: italic;
+}
+label {
+	font-size: 16px;
+}
+blockquote p {
+	font-size: 16px;
+	font-style: italic;
+	line-height: 28px;
+}
+.fa-li {
+	font-size: 14px;
+}
+.fa.fa-num-one,
+.fa.fa-num-two,
+.fa.fa-num-three,
+.fa.fa-num-four,
+.fa.fa-num-five {
+	font-family: 'Roboto Slab' , Georgia , serif;
+}
+.fa-num-one:before		{ content: "1"; }
+.fa-num-two:before 		{ content: "2"; }
+.fa-num-three:before 	{ content: "3"; }
+.fa-num-four:before 	{ content: "4"; }
+.fa-num-five:before 	{ content: "5"; }
+
+.special-header-1 {
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+.special-header {
+	text-align: center;
+}
+.special-header h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.special-header h2,
+.big-header h2 {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 90px;
+}
+.special-header h2 strong {
+}
+.big-header {
+	text-align: center;
+}
+.big-header h1 {
+	font-size: 22px;
+	margin-bottom: 0;
+}
+.big-callout {
+	text-align: center;
+	padding: 60px 120px;
+}
+.big-callout h1 {
+	font-size: 24px;
+}
+.big-callout p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.big-callout p strong {
+}
+.tip-subatomic .tip-inner {
+	font-size: 14px;
+	font-weight: 700;
+}
+.endgame-button.small {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.endgame-button.medium {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.endgame-button.large {
+	font-size: 24px;
+	font-weight: 700;
+}
+button,
+a.button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+header.signup-header h2,
+header.signup-header-icon h2 {
+	text-align: center;
+	font-size: 16px;
+	line-height: 54px;
+}
+header.signup-header-icon h2 {
+	text-align: left;
+}
+.accordion h2 a,
+.toggle h2 a {
+	font-size: 23px;
+	text-decoration: none;
+}
+.tab-navigation li a {
+	font-family: 'Roboto Slab' , Georgia , serif;
+	font-style: 14px;
+	text-decoration: none;
+}
+.callout h2 {
+	font-size: 22px;
+	margin-bottom: 0;
+}
+.callout h3 {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.team-member h3 {
+	font-size: 18px;
+	line-height: 20px;
+}
+.team-member h3 span {
+	font-size: 12px;
+}
+.team-member a {
+	text-decoration: none;
+	font-style: italic;
+}
+.team-member a:hover {
+	text-decoration: underline;
+	font-style: italic;
+}
+.endgame-icon i:before {
+	font-size: 16px;
+}
+.skillbar p {
+	font-size: 16px;
+	font-style: italic;
+	text-align: right;
+	line-height: 30px;
+}
+.skillbar-inner span {
+	font-size: 16px;
+	font-weight: 700;
+}
+.skillbar-large-inner p {
+	font-size: 18px;
+	font-style: italic;
+	line-height: 45px;
+}
+.skillbar-large-inner span {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: 46px;
+	text-align: center;
+}
+.pricing-column header h2 {
+	font-size: 20px;
+	text-align: center;
+	line-height: 56px;
+}
+.pricing-minimal header h2 {
+	font-size: 18px;
+}
+.pricing-column-price h3 {
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 0;
+}
+.pricing-column-price h3 sup {
+	bottom: 18px;
+	font-size: 20px;
+}
+.pricing-column-price h3 span {
+	font-size: 16px;
+}
+.pricing-minimal h3 {
+	font-size: 36px;
+}
+.pricing-minimal h3 sup {
+	bottom: 14px;
+	font-size: 16px;
+}
+.pricing-minimal h3 span {
+	font-size: 14px;
+}
+.pricing-column-features ul li {
+	line-height: 46px;
+}
+.big-tabs .tab-navigation li a {
+	font-size: 20px;
+	line-height: 56px;
+}
+.pagination li a {
+	font-size: 14px;
+	line-height: 28px;
+	text-decoration: none;
+}
+.entry-meta span a {
+	text-decoration: none;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 700;
+}
+.entry-meta span a:hover {
+	text-decoration: underline;
+}
+.entry-featured-image h1 {
+	font-size: 20px;
+}
+.entry-tags li a {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	text-decoration: none;
+}
+.entry-author-bio h2 {
+	font-size: 16px;
+}
+.sidebar h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.sidebar .latest-post p a {
+	font-weight: 700;
+	text-decoration: none;
+}
+.sidebar .widget_tag_cloud a {
+	font-weight: 700;
+	text-decoration: none;
+}
+.sidebar .wp-calendar caption {
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.comments-title {
+	font-size: 18px;
+}
+.comments-title span {
+	font-weight: 700;
+}
+.comment-meta h3 {
+	font-size: 16px;
+	line-height: 12px;
+}
+.comment-meta h3 a {
+	text-decoration: none;
+}
+.comment-meta span {
+	font-size: 12px;
+	font-style: italic;
+}
+.comment-content {
+	line-height: 24px;
+}
+.comment-respond h3 {
+	font-size: 18px;
+}
+.testimonial-slider blockquote p {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	font-style: italic;
+}
+.blog-thumb span {
+	font-size: 12px;
+}
+#home-slider h1 {
+	font-size: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+#home-slider h2 {
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+}
+#inner-page-intro-overlay h1 {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+#inner-page-intro-overlay p {
+	font-size: 12px;
+	font-style: italic;
+}
+#inner-page-intro-overlay a {
+	font-weight: 700;
+}
+#inner-page-intro-overlay span {
+	font-style: normal;
+}
+#social-icons ul li a i:before {
+	font-size: 18px;
+}
+#page-footer .widget-title {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#page-footer a {
+	text-decoration: none;
+	font-weight: 700;
+}
+#page-footer a:hover {
+	text-decoration: underline;
+}
+#page-footer li,
+#page-footer li a {
+}
+#page-footer li a:hover {
+	text-decoration: none;
+}
+#page-footer ul li.recentcomments a,
+#page-footer .widget_recent_entries ul li a {
+	font-weight: 700;
+}
+#page-footer ul li.recentcomments a:hover,
+#page-footer .widget_recent_entries ul li a:hover {
+	text-decoration: underline;
+}
+#bottom-footer ul li a {
+	font-size: 12px;
+	text-decoration: none;
+}
+#bottom-footer ul li a:hover {
+	text-decoration: underline;
+}
+#page-footer .wp-calendar caption {
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+}

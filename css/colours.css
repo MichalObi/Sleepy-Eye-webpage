@@ -1,0 +1,515 @@
+/*
+
+	Theme Name: EndGame - Responsive Retina Ready HTML Template
+	Author:		Dan Richardson (Subatomic Themes)
+	Version:	1.0.0
+	Stylesheet:	Stylesheet to assign colour schemes (colours.css)
+	Scheme:     Blue
+	
+	Colours Used:
+		
+		#999;		- MAIN BODY TEXT COLOURS
+		#fff;		- ALL WHITE TEXT COLOURS
+		
+		#566473;	- PRIMARY COLOUR
+		#acc8e5;	- PRIMARY COLOUR - LIGHT VARIANT
+		#cde0f4;	- PRIMARY COLOUR - EXTRA LIGHT VARIANT
+		#4c5966;	- PRIMARY COLOUR - DARK VARIANT
+		#434e59;	- PRIMARY COLOUR - EXTRA DARK VARIANT
+		#39434d;	- PRIMARY COLOUR - EXTRA-EXTRA DARK VARIANT
+		
+		#7ed4e6;	- SECONDARY COLOUR
+		#77c8d9;	- SECONDARY COLOUR - DARK VARIANT
+		#70bdcc;	- SECONDARY COLOUR - EXTRA DARK VARIANT
+		
+	Quick Tip: Use your text editor's "find and replace" method to quickly re-assign colour
+	schemes.
+	
+*/
+
+/* MAIN BODY TEXT COLOUR */
+body , .fa-li,
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+abbr,
+.pricing-column-features ul li,
+.tab-navigation li a								
+{ /*************************************************************************************************************/
+	color: #999; 
+} /*************************************************************************************************************/
+
+/* ALL WHITE COLOURS (#FFF) */
+.tip-subatomic,
+mark,
+.sf-menu a:hover,
+.table-2 th,
+.table-3 th,
+.table-3 td,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark .special-header-1 span,
+.dark .special-header h1,
+.dark .special-header h2,
+.parallax h1,
+.parallax h2,
+.parallax h3,
+.parallax h4,
+.parallax h5,
+.parallax h6,
+.parallax .special-header-1 span,
+.parallax .special-header h1,
+.parallax .special-header h2,
+.dark.accordion h2 a,
+.dark.toggle h2 a,
+.dark.horizontal-tabs .tab-navigation li a.active,
+.dark.vertical-tabs .tab-navigation li a.active,
+button,
+a.button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.endgame-button,
+.endgame-button:hover,
+.endgame-button.small.light:hover,
+.endgame-button.medium.light:hover,
+.endgame-button.large.light:hover,
+.endgame-icon i:before,
+.team-member:hover h3,
+.team-member:hover h3 span,
+.team-member:hover p,
+.team-member:hover a,
+.alt .skillbar-inner span,
+.skillbar-large-inner p,
+.skillbar-large-inner span,
+.pricing-column header h2,
+.pricing-primary-colour .pricing-column-price h3,
+.pricing-primary-colour .pricing-column-price h3 span,
+.pricing-primary-colour ul li strong,
+.pricing-secondary-colour .pricing-column-price h3,
+.pricing-secondary-colour .pricing-column-price h3 span,
+.pricing-secondary-colour ul li,
+.pricing-secondary-colour ul li strong,
+.big-tabs .tab-navigation li a,
+.big-tabs .tab-navigation li a.active,
+.pagination li a:hover,
+.pagination .previous-project-link a,
+.pagination .next-project-link a,
+.pagination .previous-post-link a,
+.pagination .next-post-link a,
+.entry-meta,
+.entry-meta a,
+.entry-meta a:hover,
+.entry-featured-image h1,
+.sidebar .widget_tag_cloud a:hover,
+.slide-blog-meta,
+.sidebar .wp-calendar a:hover,
+.testimonial-slider blockquote p,
+.testimonial-slider blockquote span,
+.blog-thumb span,
+.blog-thumb-hover:before,
+.info-box,
+.info-box p strong,
+.info-box h3,
+.info-box-close,
+.info-box-close:hover,
+header.signup-header h2,
+header.signup-header h2 strong,
+header.signup-header-icon h2,
+header.signup-header-icon h2 strong,
+#inner-page-intro-overlay h1,
+#inner-page-intro-overlay p,
+#inner-page-intro-overlay a,
+#page-footer .widget-title,
+#page-footer p,
+#page-footer p strong,
+#page-footer a,
+#page-footer li,
+#page-footer ul li:hover:before,
+#page-footer .wp-calendar tfoot tr td,
+#page-footer .wp-calendar td,
+#page-footer .wp-calendar th
+{ /*************************************************************************************************************/
+	color: #fff; 
+} /*************************************************************************************************************/
+
+/* BUTTON COLOURS */
+.red												{ background: #e67373; }
+.pink												{ background: #e667bb; }
+.purple												{ background: #c37ee6; }
+.blue												{ background: #73a1ff; }
+.light-blue											{ background: #7ed4e6; }
+.green												{ background: #70cc70; }
+.gold												{ background: #d9d962; }
+.orange												{ background: #e6a750; }
+.light												{ background: #f2f2f2; }
+
+/**
+ *
+ * ==============================================================================================================
+ * PRIMARY COLOUR
+ * ==============================================================================================================
+ *
+ */
+h1, h2, h3, h4, h5, h6,
+th,
+.special-header h2 strong,
+.fa-ul.primary-colour li i,
+.endgame-button.small.light,
+.endgame-button.medium.light,
+.endgame-button.large.light,
+.accordion h2 a,
+.accordion h2 a:before,
+.toggle h2 a,
+.toggle h2 a:before,
+.tab-navigation li a.active,
+.team-member a,
+.skillbar-inner span,
+.skillbar p,
+.pricing-column.star:before,
+.portfolio-grid li i:before,
+.portfolio-item-link,
+.pagination li a,
+.entry-tags li:first-child:before,
+.entry-tags li a:hover,
+.entry-author-bio h2 strong,
+.sidebar .widget_tag_cloud a,
+.sidebar .wp-calendar a,
+.sidebar ul li.recentcomments a,
+.sidebar .widget_recent_entries a,
+.comments-title span,
+#page-footer .widget_tag_cloud a:hover,
+#social-icons ul li a i:before,
+#page-footer .wp-calendar a:hover,
+#bottom-footer a.btt:before,
+#bottom-footer ul li a
+{ /*************************************************************************************************************/
+	color: #074d69; 
+} /*************************************************************************************************************/
+.tip-subatomic,
+.sf-menu li,
+.table-2 th,
+.table-3 tr,
+.dark,
+.dark .special-header-1 span,
+.parallax .special-header-1 span,
+.dark.accordion h2 a,
+.dark.toggle h2 a,
+.dark .tab-panel-container,
+.dark.horizontal-tabs .tab-navigation li a.active,
+.dark.vertical-tabs .tab-navigation li a.active,
+.dark.vertical-tabs .tab-navigation li a.active:after,
+.service-icon,
+.endgame-icon,
+.skillbar-outer,
+.alt .skillbar-inner,
+.skillbar-large,
+.pricing-column header,
+.pricing-primary-colour .pricing-column-price,
+.pricing-primary-colour footer,
+.big-tabs .tab-navigation li a:hover,
+.big-tabs .tab-navigation li a:hover:after,
+.big-tabs .tab-navigation li a.active,
+.big-tabs .tab-navigation li a.active:after,
+.portfolio-controls li.active a,
+.pagination .previous-project-link a,
+.pagination .next-project-link a,
+.pagination .previous-post-link a,
+.pagination .next-post-link a,
+a.cycle-prev-slide,
+a.cycle-next-slide,
+.entry-date,
+.entry-tags li a,
+.sidebar .widget_tag_cloud a:hover,
+.sidebar .wp-calendar a:hover,
+header.signup-header,
+header.signup-header-icon,
+#home-prev-slide,
+#home-next-slide,
+#page-header,
+#page-footer,
+#lbOverlay,
+.primary-background-colour 									
+{ /*************************************************************************************************************/
+	background: #566473; 
+} /*************************************************************************************************************/
+.dark.horizontal-tabs .tab-navigation li a.active
+{ /*************************************************************************************************************/
+	border-bottom: 1px solid #566473; 
+} /*************************************************************************************************************/
+.sidebar .latest-post a img:hover 
+{ /*************************************************************************************************************/
+	border: 2px solid #566473; 
+} /*************************************************************************************************************/
+
+/* PRIMARY COLOUR - LIGHT VARIANT */
+.table-3 th											
+{ /*************************************************************************************************************/
+	background: #acc8e5; 
+} /*************************************************************************************************************/
+
+/* PRIMARY COLOUR - EXTRA LIGHT VARIANT */
+.mean-container a.meanmenu-reveal span
+{ /*************************************************************************************************************/
+	background: #cde0f4; 
+} /*************************************************************************************************************/
+.mean-nav a,
+a.meanclose,
+.sf-menu a,
+.dark p,
+.dark p strong,
+.dark li,
+.dark.callout h3,
+.parallax p,
+.parallax li,
+.pricing-primary-colour .pricing-column-features ul li,
+#page-footer .wp-calendar caption,
+#page-footer .wp-calendar tbody td,
+#page-footer ul li.recentcomments,
+#page-footer .widget_recent_entries ul li span,
+#page-footer input[type="text"],
+#page-footer input[type="search"]	
+{ /*************************************************************************************************************/
+	color: #cde0f4; 
+} /*************************************************************************************************************/
+#page-footer ::-webkit-input-placeholder	{ color: #cde0f4; }
+#page-footer :-moz-placeholder				{ color: #cde0f4; }
+#page-footer ::-moz-placeholder				{ color: #cde0f4; }
+#page-footer :-ms-input-placeholder			{ color: #cde0f4; }
+
+/* PRIMARY COLOUR - DARK VARIANT */
+.table-3 tr:nth-child(even),
+.pricing-primary-colour header,
+.pricing-primary-colour .pricing-column-features ul li
+{ /*************************************************************************************************************/
+	background: #4c5966; 
+} /*************************************************************************************************************/
+
+/* PRIMARY COLOUR - EXTRA DARK VARIANT */
+.sf-menu ul li,
+.sf-menu ul ul li,
+.sf-menu li:hover,
+.dark.accordion h2 a:before,
+.dark.toggle h2 a:before,
+.dark.accordion h2 a:hover,
+.dark.toggle h2 a:hover,
+.dark.horizontal-tabs .tab-navigation li a,
+.dark.vertical-tabs .tab-navigation li a,
+.sf-menu li.sfHover,
+#page-footer input[type="text"],
+#page-footer input[type="search"]
+{ /*************************************************************************************************************/
+	background: #434e59; 
+} /*************************************************************************************************************/
+.dark.accordion h2 a,
+.dark.toggle h2 a,
+.pricing-primary-colour header,
+.sidebar .widget_tag_cloud a:hover,
+.pagination li a:hover					
+{ /*************************************************************************************************************/
+	border: 1px solid #434e59; 
+} /*************************************************************************************************************/
+.pricing-primary-colour .pricing-column-price,
+.pricing-primary-colour .pricing-column-features ul li,
+.pricing-primary-colour footer	
+{ /*************************************************************************************************************/
+	border-left: 1px solid #434e59; 
+	border-right: 1px solid #434e59; 
+	border-bottom: 1px solid #434e59; 
+} /*************************************************************************************************************/
+
+/* PRIMARY COLOUR - XX DARK VARIANT */
+.sf-menu ul li a:hover,
+.dark.horizontal-tabs .tab-navigation li a:before	
+{ /*************************************************************************************************************/
+	background: #39434d; 
+} /*************************************************************************************************************/
+.dark.accordion h2 a:before,
+.dark.toggle h2 a:before,
+.dark.horizontal-tabs .tab-navigation li a,
+.dark.horizontal-tabs .tab-panel-container,
+.dark.vertical-tabs .tab-panel-container,
+.dark.callout,
+#page-footer input[type="text"],
+#page-footer input[type="search"]									
+{ /*************************************************************************************************************/
+	border: 1px solid #39434d; 
+} /*************************************************************************************************************/
+.dark.accordion .accordion-content,
+.dark.toggle .toggle-content 						
+{ /*************************************************************************************************************/
+	border-left: 1px solid #39434d; 
+	border-right: 1px solid #39434d; 
+	border-bottom: 1px solid #39434d; 
+} /*************************************************************************************************************/
+.dark.horizontal-tabs .tab-navigation li a.active	
+{ /*************************************************************************************************************/
+	border-top: 1px solid #39434d; 
+} /*************************************************************************************************************/
+.dark.vertical-tabs .tab-navigation li a.active
+{ /*************************************************************************************************************/
+	border-left: 1px solid #39434d; 
+} /*************************************************************************************************************/
+.dark.vertical-tabs .tab-navigation li a			
+{ /*************************************************************************************************************/
+	border-top: 1px solid #39434d; border-left: 1px solid #39434d; 
+} /*************************************************************************************************************/
+.dark.vertical-tabs .tab-navigation li:last-child a
+{ /*************************************************************************************************************/
+	border-bottom: 1px solid #39434d; 
+} /*************************************************************************************************************/
+@media only screen and (max-width: 767px) 
+{
+	.dark.horizontal-tabs .tab-navigation li:last-child a 	
+	{ border-bottom: 1px solid #39434d;	}
+}
+
+/**
+ *
+ * ==============================================================================================================
+ * SECONDARY COLOUR
+ * ==============================================================================================================
+ *
+ */
+a,
+.fa-ul.secondary-colour li i,
+.dark.accordion h2 a:before,
+.dark.toggle h2 a:before,
+.dark.horizontal-tabs .tab-navigation li a,
+.dark.vertical-tabs .tab-navigation li a,
+.hover-effect.service:hover .service-icon.secondary-background-colour i:before,
+.team-member:hover .endgame-icon i:before,
+.star-rating li i:before,
+.portfolio-item-link:hover,
+.big-callout p strong,
+.entry-tags li a,
+.comment-meta h3 a:hover,
+.sidebar .latest-post p a:hover,
+#page-footer .widget_tag_cloud a,
+#page-footer ul li:before,
+#page-footer .wp-calendar a							
+{
+	color: #fff; /*************************************************************************************************************/ 
+} /*************************************************************************************************************/
+button,
+a.button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.secondary-background-colour,
+.hover-effect.service:hover .service-icon,
+.team-member:hover,
+.skillbar-inner,
+.skillbar-large-inner,
+.pricing-column.star header,
+.pricing-secondary-colour .pricing-column-price,
+.pricing-secondary-colour footer,
+.big-tabs .tab-navigation li a,
+.big-tabs .tab-navigation li a:after,
+.pagination li a:hover,
+.entry-meta,
+.entry-tags li:first-child:before,
+.entry-tags li a:hover,
+.sidebar .flickr-stream ul li a img:hover,
+.slide-blog-meta,
+.testimonial-slider,
+.testimonial-slider blockquote,
+.testimonial-slider-pager a,
+.blog-thumb-hover,
+#home-slider-progress,
+#page-footer .widget_tag_cloud a:hover,
+#page-footer .wp-calendar a:hover,
+#bottom-footer										
+{ /*************************************************************************************************************/
+	background: #e0e0e0; 
+} /*************************************************************************************************************/
+.author-thumbnail,
+.service-icon,
+#page-footer .latest-post a img:hover,
+.sidebar .latest-post a img
+{ /*************************************************************************************************************/
+	border: 2px solid #7ed4e6; 
+} /*************************************************************************************************************/
+.pagination .previous-project-link a,
+.pagination .next-project-link a,
+.pagination .previous-post-link a,
+.pagination .next-post-link a,
+.sidebar .flickr-stream ul li a img:hover
+{ /*************************************************************************************************************/
+	border: 1px solid #7ed4e6; 
+} /*************************************************************************************************************/
+.horizontal-tabs .tab-navigation li a.active	
+{ /*************************************************************************************************************/
+	border-top: 1px solid #7ed4e6; 
+} /*************************************************************************************************************/
+.horizontal-tabs .tab-navigation li a.active		
+{ /*************************************************************************************************************/
+	-webkit-box-shadow: inset 0px 1px 0px #7ed4e6; 
+	   -moz-box-shadow: inset 0px 1px 0px #7ed4e6; 
+	        box-shadow: inset 0px 1px 0px #7ed4e6; 
+} /*************************************************************************************************************/
+.vertical-tabs .tab-navigation li a.active	
+{ /*************************************************************************************************************/
+	border-left: 1px solid #7ed4e6; 
+} /*************************************************************************************************************/
+blockquote
+{ /*************************************************************************************************************/
+	border-left: 2px solid #7ed4e6; 
+} /*************************************************************************************************************/
+.vertical-tabs .tab-navigation li a.active			
+{ /*************************************************************************************************************/
+	-webkit-box-shadow: inset 1px 0px 0px #7ed4e6; 
+	   -moz-box-shadow: inset 1px 0px 0px #7ed4e6; 
+	        box-shadow: inset 1px 0px 0px #7ed4e6; 
+} /*************************************************************************************************************/
+#inner-page-intro-overlay							
+{ /*************************************************************************************************************/
+	background: #7ed4e6;  /* IE8 Fallback */
+} /*************************************************************************************************************/
+#inner-page-intro-overlay,
+.blog-thumb span						
+{ /*************************************************************************************************************/
+	background: rgba(126,212,230,0.85); 
+} /*************************************************************************************************************/
+.hover-effect.service:hover .service-icon			
+{ /*************************************************************************************************************/
+	-webkit-box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 4px #7ed4e6; 
+	   -moz-box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 4px #7ed4e6; 
+	        box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 4px #7ed4e6; 
+} /*************************************************************************************************************/
+.sf-menu ul li a,
+.sf-menu li.sfHover,
+#page-footer ul li a:hover 							
+{ /*************************************************************************************************************/
+	-webkit-box-shadow: inset 1px 0px 0px #7ed4e6; 
+	   -moz-box-shadow: inset 1px 0px 0px #7ed4e6; 
+	        box-shadow: inset 1px 0px 0px #7ed4e6; 
+} /*************************************************************************************************************/
+
+/* SECONDARY COLOUR - DARK VARIANT */
+.pricing-secondary-colour header,
+.pricing-secondary-colour .pricing-column-features ul li
+{ /*************************************************************************************************************/
+	background: #77c8d9;
+} /*************************************************************************************************************/
+
+/* SECONDARY COLOUR - EXTRA DARK VARIANT */
+.pricing-secondary-colour header
+{ /*************************************************************************************************************/
+	border: 1px solid #70bdcc;
+} /*************************************************************************************************************/
+.pricing-secondary-colour .pricing-column-price,
+.pricing-secondary-colour .pricing-column-features ul li,
+.pricing-secondary-colour footer	
+{ /*************************************************************************************************************/
+	border-left: 1px solid #70bdcc;
+	border-right: 1px solid #70bdcc;
+	border-bottom: 1px solid #70bdcc;
+} /*************************************************************************************************************/
