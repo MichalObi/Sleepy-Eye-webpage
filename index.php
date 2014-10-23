@@ -9,7 +9,7 @@
 <body>
 	<header id="page-header">
 
-	<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">	
+	<!--<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">	
         <div class="container-fluid">
         	<div id="social_menu">
                 <ul class="list-inline">         
@@ -36,11 +36,37 @@
               <li><a href="#" id="portfolio">Portfolio</a></li>
               <li><a href="#" id="strategia">O nas</a></li>
               <li><a href="#" id="kontakt">Kontakt</a></li>
+              <li><a href="#" id="gora">Powrót na Górę</a></li>
             </ul>
-            <a href="#" id="gora">Powrót na Górę</a>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </div>
+          </div>
+        </div>
+      </div>-->
+
+          <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="col-md-3 col-md-offset-8 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    	<div><a href="#" id="gora">Powrót na Górę</a></div>
+                        <ul class="nav navbar-nav navbar-right">
+                        	<li><a href="#" id="kreacja">Oferta</a></li>
+				            <li><a href="#" id="portfolio">Portfolio</a></li>
+				            <li><a href="#" id="strategia">O nas</a></li>
+				            <li><a href="#" id="kontakt">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+        </nav>
+
 	</header>
 
 
@@ -79,76 +105,9 @@
 
 	<!-- END Bottom Footer -->
 	
+		<section>
+			<?php @include("scripts.php"); ?>
+		</section>
 	
-	<!-- Javascript Files -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/jquery.easing.js"></script>
-	<script src="js/jquery.formalize.js"></script>
-	<script src="js/jquery.superfish.js"></script>
-	<script src="js/jquery.hoverIntent.js"></script>
-	<script src="js/jquery.meanmenu.js"></script>
-	<script src="js/jquery.poshytip.js"></script>
-	<script src="js/jquery.fitvids.js"></script>
-	<script src="js/jquery.cycle2.min.js"></script>
-	<script src="js/jquery.cycle2.swipe.min.js"></script>
-	<script src="js/jquery.parallax.js"></script>
-	<script src="js/jquery.slimbox2.min.js"></script>
-	<script src="js/jquery.custom.js"></script>
-	<script src="js/classie.js"></script>
-	<script src="js/uiMorphingButton_fixed.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-	<!--<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/modernizr-latest.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	-->
-
-    		<script type="text/javascript">
-       function myScrollTo(from, to)
-       {
-               $(from).click(function (){
-               $('html, body').animate({
-                   scrollTop: $(to).offset().top
-                    }, { duration: 800, easing: 'easeInQuad' });
-					event.preventDefault();
-       });
-       }
-   $(document).ready(function (){
-               myScrollTo($("#strategia"), $("#strategia_offer"));
-			   myScrollTo($("#kreacja"), $("#kreacja_offer"));
-			   myScrollTo($("#portfolio"), $("#portfolio_slider"));
-			   myScrollTo($("#kontakt"), $("#bottom"));
-			   myScrollTo($("#gora"), $("#page-header"));
-   });
-       </script>
-
-    <script type="text/javascript">
-	    //"Go UP! text" show when you scroll down
-	        $(window).scroll(function() {
-	        if ($(this).scrollTop()) {
-	        $('#gora').fadeIn();
-	        } else {
-	            $('#gora').fadeOut();
-	        }
-	        });
-    </script>
-
-    <script type="text/javascript">
-    		$(function() {
-		    	$("body").on("input propertychange", ".floating-label-form-group", function(e) {
-		        $(this).toggleClass("floating-label-form-group-with-value", !! $(e.target).val());
-		    	}).on("focus", ".floating-label-form-group", function() {
-		        $(this).addClass("floating-label-form-group-with-focus");
-		    	}).on("blur", ".floating-label-form-group", function() {
-		        $(this).removeClass("floating-label-form-group-with-focus");
-    });
-});
-
-    </script>
-
 </body>
 </html>
