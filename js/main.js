@@ -7,6 +7,16 @@
 					event.preventDefault();
        });
        }
+
+       	    //"Go UP! text" show when you scroll down
+	        $(window).scroll(function() {
+	        if ($(this).scrollTop()) {
+	        $('#gora').fadeIn();
+	        } else {
+	            $('#gora').fadeOut();
+	        }
+	        });
+
        
    $(document).ready(function (){
                myScrollTo($("#strategia"), $("#strategia_offer"));
@@ -16,14 +26,6 @@
 			   myScrollTo($("#gora"), $("#page-header"));
    });
 
-	    //"Go UP! text" show when you scroll down
-	        $(window).scroll(function() {
-	        if ($(this).scrollTop()) {
-	        $('#gora').fadeIn();
-	        } else {
-	            $('#gora').fadeOut();
-	        }
-	        });
 
     		$(function() {
 		    	$("body").on("input propertychange", ".floating-label-form-group", function(e) {

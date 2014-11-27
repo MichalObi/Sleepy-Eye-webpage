@@ -3414,11 +3414,7 @@ padding: 0px 0 0 0;
 
 #gora {
 	display: none;
-	color: red;
-	font-style: italic;
-	font-weight: thin;
-	font-size: 8px;
-	text-decoration: none;
+	padding:0px 25px 0px 0px;
 }
 
 #social_menu {
@@ -3565,6 +3561,8 @@ form .row:first-child .floating-label-form-group {
 .cbalink {
 display:none;
 }
+
+
 
 
 

@@ -6,8 +6,8 @@
 	<?php @include("head.php"); ?>	
 </head>
 
-<body>
-	<header id="page-header">
+<body id="page-header">
+	<header>
 
 	<!--<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">	
         <div class="container-fluid">
@@ -52,11 +52,11 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
+                        <a href="#" id="gora" class="navbar-brand"><img src="images/homeiconact.png"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="col-md-3 col-md-offset-8 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    	<div><a href="#" id="gora">Powrót na Górę</a></div>
+                    <div class="col-sm-4 col-sm-push-3 col-md-4 col-md-push-6 col-lg-4 col-lg-push-8 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                         	<li><a href="#" id="kreacja">Oferta</a></li>
 				            <li><a href="#" id="portfolio">Portfolio</a></li>
